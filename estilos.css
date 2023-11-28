@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+}
+
+header {
+    background-color: #4e290f;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Caveat', cursive; /* Nueva tipografía para h1 */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Verdana', sans-serif;
+}
+
+section {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #000000; /* Marrón SaddleBrown */
+    font-family: Arial, Helvetica, sans-serif
+}
+
+p {
+    color: #383534; /* Marrón RosyBrown */
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Agregar estilos para el minijuego */
+#minijuego {
+    background-color: #f0f0f0;
+}
+
+/* Estilos adicionales para hacer el sitio más atractivo */
+#inicio {
+    position: relative;
+    background-image: url('tp6/assets/cueva.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
