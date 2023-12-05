@@ -38,9 +38,9 @@ class MiniJuego {
       }
     } else {
       this.pantallaInicio();
+      this.inicio = true;
     }
   }
-
 
   presionarTecla(tecla) {
     if (this.juegoEnEjecucion) {
@@ -167,11 +167,12 @@ class MiniJuego {
   reiniciarJuego() {
     console.log("Reiniciando el juego...");
     this.juegoTerminado = false;
+    
     this.vidas = 3;
     this.recursosRecolectados = 0;
-    this.tiempoInicial = millis();
+    this.juegoEnEjecucion = false;
     this.explorador.x = width / 2;
-    this.iniciarJuegoDesdeInicio();
+    
 
     for (let i = 0; i < this.recursos.length; i++) {
       this.recursos[i].reiniciar();
@@ -182,6 +183,6 @@ class MiniJuego {
     }
 
     this.mensaje = "";
-    this.inicio = false;
+    this.inicio = true;
   }
 }
