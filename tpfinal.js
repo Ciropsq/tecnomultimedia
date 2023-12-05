@@ -11,7 +11,6 @@ tp6=Historia estilo elige tu propia aventura; Viaje al centro de la tierra con M
 
 // tp6.js
 let aventura; 
-let imagenes;
 
 function preload() {
   let imagenes = new Array(28);
