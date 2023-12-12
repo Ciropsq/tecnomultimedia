@@ -1,0 +1,150 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+    
+}
+
+header {
+    background-color: #4e290f;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+}
+
+.fondo{
+    background-color: #6b4a33d5;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Verdana', sans-serif;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+.texto{
+    text-align: center;
+    white-space: pre-line;
+}
+
+.card * {
+    text-decoration: none; /* Quitar subrayado en todos los elementos dentro de .card */
+}
+
+
+p {
+    color: #383534;
+    line-height: 1.4;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#minijuego {
+    background-color: #421f1f;
+}
+
+#inicio {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+    width: 300px;
+    margin-right: 20px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: transform 1s ease;
+    background-color: #ffffff;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    max-height: 300px; /* Ajusta la altura máxima deseada */
+    border-radius: 8px;
+}
+
+.card-content {
+    padding: 15px;
+    display: none;
+}
+
+.card:hover .card-content {
+    display: block;
+}
+
+#seccionAbajo {
+    padding: 40px;
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+#seccionAbajo img {
+    max-width: 300px; /* Hace que la imagen sea responsive y no se salga del contenedor */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    margin-bottom: 15px; /* Margen inferior de la imagen */
+}
+
+
+@media (max-width: 600px) {
+    .card img {
+        max-height: 200px;
+    }
+
+    .card h2 {
+        font-size: 1rem; /* Ajusta el tamaño del h2 para pantallas más pequeñas */
+        margin-bottom: 10px; /* Añade espacio inferior para separar del párrafo */
+    }
+}
