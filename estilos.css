@@ -1,0 +1,313 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #4e290f;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.imagenes {
+    display: flex;
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagenes img {
+    max-width: 100%;
+    margin: 0 10px 10px 0;
+}
+
+
+.fondo{
+    background-color: #6b4a33d5;
+}
+
+.fondomarron{
+    background-color: #6b4a33d5;
+    color: #ffffff;
+}
+
+.fondoblanco{
+    background-color: #ffffff;
+    color: #000000;
+}
+.fondoblanco h2{
+    color: #000000;
+    margin-bottom: 5px;
+}
+.fondoblanco p{
+    color: #383534;
+    line-height: 1.4;
+}
+
+button {
+    background-color: #795338d5;
+    color: #ffffff;
+    border-color: #ffffff;
+    font-weight:700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Estilo hover para el botón */
+button:hover {
+    background-color: #543927;
+}
+
+nav a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    padding-inline: 70px;
+    color: #fff;
+    font-weight:bold;
+    font-size: 18px;
+    margin-right: 30px;
+    
+}
+
+nav a:hover{
+    color: #6cb5e6;
+}
+
+nav li{
+    display: inline-block;
+}
+
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.texto{
+    text-align: center;
+    white-space: pre-line;
+}
+
+.card * {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#inicio {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#SeccionBoton{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+    width: 300px;
+    margin-right: 20px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: transform 1s ease;
+    background-color: #ffffff;
+}
+
+.card p {
+    color: #000;
+    text-decoration: none;
+}
+
+.card h2 {
+    color: #000;
+    text-decoration: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 8px;
+}
+
+.card-content {
+    padding: 15px;
+    display: none;
+}
+
+.card:hover .card-content {
+    display: block;
+}
+
+
+#seccionAbajo {
+    padding: 130px;
+    font-size: 1.2em;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#seccionAbajo img {
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+
+#historia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#historia div {
+    max-width: 1300px;
+    margin-left: 20px;
+}
+
+#historia h2 {
+    text-align: left;
+}
+
+#historia img {
+    width: 400px;
+    border-radius: 8px;
+}
+
+#historia p {
+    text-align: justify;
+    margin-left: 20px;
+    font-size: 1.2em;
+}
+
+
+#seccionAbajo2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#seccionAbajo2 div {
+    max-width: 1000px;
+    margin-left: 20px;
+}
+
+#seccionAbajo2 img {
+    width: 400px;
+    border-radius: 8px;
+}
+
+#seccionAbajo2 p {
+    text-align: justify;
+    margin-left: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 1000px) {
+    .card img {
+        max-height: 200px;
+    }
+
+    .card h2 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    nav a{
+        padding: 10px;
+        padding-inline: 0px;
+    }
+
+    #seccionAbajo {
+        padding: 40px;
+        padding-top: 20px;
+        font-size: 1.0em;
+        padding-bottom: 20px;
+    }
+    
+    #seccionAbajo img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #seccionAbajo2 {
+        flex-direction: column;
+    }
+    
+    #seccionAbajo2 div {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    
+    #seccionAbajo2 img {
+        max-width: 100%;
+    }
+    
+    #seccionAbajo2 p {
+        text-align: justify;
+    }
+
+    #historia {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #historia div {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    
+    #historia img {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    #historia p {
+        margin: 15px 0;
+        font-size: 1em;
+    }
+}
